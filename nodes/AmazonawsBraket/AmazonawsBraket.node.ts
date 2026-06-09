@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class AmazonawsBraket implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'amazonaws-braket',
+		displayName: 'Amazonaws Braket',
 		name: 'N8nDevAmazonawsBraket',
 		icon: { light: 'file:./amazonaws-braket.png', dark: 'file:./amazonaws-braket.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Amazon Braket API Reference provides information about the operations and structures supported in Amazon Braket. Additional Resources: <a href=\'https://docs.aws.amaz..',
-		defaults: { name: 'amazonaws-braket' },
+		description: 'Amazon Braket API Reference details supported operations and structures.',
+		defaults: { name: 'Amazonaws Braket' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

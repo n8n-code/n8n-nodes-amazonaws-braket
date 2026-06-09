@@ -1,7 +1,7 @@
 {
   "name": "@n8n-dev/n8n-nodes-amazonaws-braket",
-  "version": "1.0.0",
-  "description": "Amazon Braket API Reference provides information about the operations and structures supported in Amazon Braket. Additional Resources: <a href='https://docs.aws.amaz..",
+  "version": "1.0.1",
+  "description": "Amazon Braket API Reference details supported operations and structures.",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-amazonaws-braket",
   "keywords": [
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "amazonaws-braket"

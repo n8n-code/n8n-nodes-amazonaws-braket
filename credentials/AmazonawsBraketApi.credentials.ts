@@ -8,7 +8,7 @@ import type {
 export class AmazonawsBraketApi implements ICredentialType {
 	name = 'N8nDevAmazonawsBraketApi';
 
-	displayName = 'amazonaws-braket API';
+	displayName = 'Amazonaws Braket API';
 
 	icon: Icon = { light: 'file:../nodes/AmazonawsBraket/amazonaws-braket.png', dark: 'file:../nodes/AmazonawsBraket/amazonaws-braket.dark.png' };
 
@@ -22,7 +22,7 @@ export class AmazonawsBraketApi implements ICredentialType {
 			default: '',
 			required: true,
 			placeholder: 'http://braket.us-east-1.amazonaws.com',
-			description: 'The base URL of your amazonaws-braket API server',
+			description: 'The base URL of your Amazonaws Braket API server',
 		},
 		{
 			displayName: 'API Key',

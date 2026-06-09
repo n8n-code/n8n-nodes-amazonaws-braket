@@ -53,9 +53,24 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Put cancel job, Put cancel quantum task, Post create job, Post create quantum task, Get device, Get job, Get quantum task, Get list tags for resource, Post tag resource, Post search devices, Post search jobs, Post search quantum tasks, Delete untag resource |
+<details>
+<summary><b>Default</b> (13 operations)</summary>
+
+- Put Cancel Job
+- Put Cancel Quantum Task
+- Post Create Job
+- Post Create Quantum Task
+- Get Device
+- Get Job
+- Get Quantum Task
+- Get List Tags For Resource
+- Post Tag Resource
+- Post Search Devices
+- Post Search Jobs
+- Post Search Quantum Tasks
+- Delete Untag Resource
+
+</details>
 
 ---
 
